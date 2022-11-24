@@ -1,6 +1,6 @@
 # Expense Tracker
 
-A web application that are enabled by  Reac, HTML/CSS that act as a web tracker that have filter, sorting function and a bar chart to help users visualize their expense rate.
+A web application that is enabled by React, HTML/CSS that act as a web tracker that have a filter, sorting function and a bar chart to help users visualize their expense rate.
 
 A closer look at the expense tracker:
 
