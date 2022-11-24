@@ -24,14 +24,20 @@ function Expense(props) {
     //     });
     // };
 
+    const [deleteID, setDeleteID] = useState("");
+    const cancelHandler = (id) => {
+        setDeleteID((prevID) => {
+            return [id, ...prevID];
+        });
+    };
+
     const filteredExpenses = props.items.filter((ele) => {
         if (filteredYear === "None") {
-            return ele;
+            return ele && !deleteID.includes(ele.id);
         }
         return (
-            ele.date.getFullYear().toString() === filteredYear
-            // &&
-            // !deleteID.includes(ele.id)
+            ele.date.getFullYear().toString() === filteredYear &&
+            !deleteID.includes(ele.id)
         );
     });
 
@@ -61,7 +67,7 @@ function Expense(props) {
                 <ExpensesChart expenses={filteredExpenses} />
                 <ExpensesList
                     items={sortedExpenses}
-                    // cancelList={cancelHandler}
+                    cancelList={cancelHandler}
                 />
             </Card>
         </div>
