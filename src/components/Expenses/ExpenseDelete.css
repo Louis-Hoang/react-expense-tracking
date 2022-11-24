@@ -1,0 +1,13 @@
+.expense-item__delete {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+}
