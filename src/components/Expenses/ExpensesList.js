@@ -1,6 +1,5 @@
 import "./ExpensesList.css";
 import ExpenseItems from "./ExpenseItems";
-// import React, { useState } from "react";
 
 function ExpensesList(props) {
     const cancelHandler = (id) => {
@@ -12,9 +11,8 @@ function ExpensesList(props) {
     return (
         <ul className="expenses-list">
             {props.items.map((expense) => (
-                <div>
+                <div key={expense.id}>
                     <ExpenseItems
-                        key={expense.id}
                         title={expense.title}
                         amount={expense.amount}
                         date={expense.date}

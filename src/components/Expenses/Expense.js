@@ -17,13 +17,6 @@ function Expense(props) {
         setSortedState(selectedState);
     };
 
-    // const [deleteID, setDeleteID] = useState("");
-    // const cancelHandler = (id) => {
-    //     setDeleteID((prevID) => {
-    //         return [...id, ...prevID];
-    //     });
-    // };
-
     const [deleteID, setDeleteID] = useState("");
     const cancelHandler = (id) => {
         setDeleteID((prevID) => {
