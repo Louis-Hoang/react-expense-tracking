@@ -1,9 +1,10 @@
 # Expense Tracker
 A sudoku game that are developed using backtracking algorithm to provide a solver as well as a random board every time the game is launched 
 
-A solvable sudoku board that are randomly created:
+A closer look at the expense tracker:
 
-![image](https://user-images.githubusercontent.com/76863485/158907301-abbfc799-eca6-4608-a71c-0da41f4e69f6.png)
+<img width="1872" alt="Screen Shot 2022-11-24 at 16 11 19" src="https://user-images.githubusercontent.com/76863485/203863663-ef90e081-0ec9-4828-b3dc-96dc1212ac91.png">
+
 
 Backtracking algorithm in work:
 
