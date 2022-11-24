@@ -1,5 +1,6 @@
 # Expense Tracker
-A sudoku game that are developed using backtracking algorithm to provide a solver as well as a random board every time the game is launched 
+
+A web application that are enabled by  Reac, HTML/CSS that act as a web tracker that have filter, sorting function and a bar chart to help users visualize their expense rate.
 
 A closer look at the expense tracker:
 
